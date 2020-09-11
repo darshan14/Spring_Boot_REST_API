@@ -42,6 +42,7 @@ public class TestAPIController extends SpringBootRestApiApplication{
 	     
 	    //Verify request succeed
 	    assertEquals(200, result.getStatusCodeValue());
+	    System.out.println("Success Message");
 	    //assertEquals(true, result.getBody().contains("productList"));
 	}
 
