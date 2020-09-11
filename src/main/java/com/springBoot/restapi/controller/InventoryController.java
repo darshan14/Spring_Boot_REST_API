@@ -38,6 +38,7 @@ public class InventoryController {
 
 	@GetMapping
 	public List<Product> getAllProducts() {
+		System.out.println("Hello World");
 		return inventoryService.getAllProducts();
 	}
 
